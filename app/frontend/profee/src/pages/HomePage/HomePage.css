@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+#page-landing {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#page-landing .bgImage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+
+.bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+
+    background: white;
+    opacity: .74;
+}
+
+#page-landing section.form {
+    position: absolute;
+    width: 34.375%;
+    height: 88.33%;
+    left: 32.77%;
+    top: 5%;
+
+    background: linear-gradient(195.34deg, #6100FF 33.79%, rgba(69, 73, 251, 0.883787) 76.6%);
+    border-radius: 10px;
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+img.logo-image {
+    width: 72.32%;
+    margin-top: 10%;
+    margin-bottom: -3.5rem;
+}
+
+::placeholder {
+    color: #B896FF;
+    font-size: 24px;
+
+}
+
+h2.conect {
+    text-align: center;
+    color: white;
+    font-size: 2.4rem;
+    margin-top: 10%;
+}
+
+form a {
+    text-align: center;
+    margin-left: 5%;
+}
+
+input.inputs {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 80%;
+    height: 30px;
+}
+
+form input{
+    padding-left: 40px;
+}
+
+form {
+    position: relative;
+}
+
+form .iconipt {
+    display: flex;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.iconipt {
+    color: white;
+    font-size: 32px;
+}
+
+/* aréa dos botoes */
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.buttons-container .svg {
+    display: flex;
+    position: absolute;
+}
+
+.svg {
+    color: white;
+    font-size: 32px;
+    margin-right: 25%;
+}
+
+.buttons-container-register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.buttons-container-register .svg {
+    display: flex;
+    position: absolute;
+}
+
+.svg {
+    color: white;
+    font-size: 32px;
+    margin-left: -5%;
+}

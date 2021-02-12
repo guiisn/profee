@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-up-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0  2%;
+}
+
+#header {
+    padding: 9px 0 ;
+    background: linear-gradient(195.34deg, #6100FF 33.79%, rgba(69, 73, 251, 0.883787) 76.6%);
+    height: 15vh;
+}
+
+nav.menu-up {
+    display: flex;
+    flex-direction: row;
+}
+
+img.logo-img {
+    width: 24%;
+    position: absolute;
+    left: 0;
+    margin-left: 3%;
+}
+
+/* svg.icon-menu {
+    color: white;
+    font-size: 42px;
+    position: absolute;
+    left: 0;
+    margin-left: 2%;
+    margin-top: 2%;
+} */
+
+.icons-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 0;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+svg {
+    font-size: 42px;
+    color: white;
+}
+
+svg.icon-add {
+    margin-right: 30px;
+}
+
+.classes-container {
+    margin-top: 15%;
+    display: flex;
+    flex-direction: row;
+}
+
+.spot {
+    position: absolute;
+    background-color: rgb(231, 231, 231);
+    height: 180px;
+    width: 25%;
+    border-radius: 18px;
+    filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.25));
+}
+
+.spot strong {
+    color: black;
+    font-family: "Oswald";
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 2px;
+
+}
